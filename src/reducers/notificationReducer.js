@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit'
 
 const notificationSlice = createSlice({
   name: 'notification',
-  initialState: 'Welcome',
+  initialState: '',
   reducers: {
     setNotification: (state, action) => {
       const notification = action.payload
