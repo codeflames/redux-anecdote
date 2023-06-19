@@ -10,7 +10,7 @@ import { createSlice } from '@reduxjs/toolkit'
 //     default:
 //       return state
 //   }
-  
+
 // }
 
 // export const filterAnecdotes = (filter) => {
@@ -31,12 +31,12 @@ const filterSlice = createSlice({
       if (filter === '') {
         return ''
       }
-     return filter
+      return filter
     },
   }
 
 })
 
-export const {filterAnecdotes} = filterSlice.actions
+export const { filterAnecdotes } = filterSlice.actions
 
 export default filterSlice.reducer

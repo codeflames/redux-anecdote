@@ -7,8 +7,10 @@ const notificationSlice = createSlice({
     setNotification: (state, action) => {
       const notification = action.payload
       return notification
+
     },
 
+    // eslint-disable-next-line no-unused-vars
     removeNotification: (state, action) => {
       return ''
     }
